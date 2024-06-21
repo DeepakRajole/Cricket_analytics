@@ -1,0 +1,5 @@
+create database cricket;
+create schema land;
+create schema raw;
+create schema clean;
+create schema consumption;
