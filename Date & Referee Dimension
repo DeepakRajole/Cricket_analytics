@@ -11,3 +11,11 @@ create or replace table date_dim (
     dayofweekname varchar(3), -- to store day names (e.g., "Mon")
     isweekend boolean -- to indicate if it's a weekend (True/False Sat/Sun both falls under weekend)
 );
+
+
+#Referee Dimension
+create or replace table referee_dim (
+    referee_id int primary key autoincrement,
+    referee_name text not null,
+    referee_type text not null
+);
