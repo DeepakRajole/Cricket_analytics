@@ -11,7 +11,6 @@ Welcome to the comprehensive end-to-end data engineering solution for One Day In
 - [Sample Data and SQL Scripts](#sample-data-and-sql-scripts)
 - [Database Architecture](#database-architecture)
 - [Automation and Dashboard](#automation-and-dashboard)
-- [Additional Resources](#additional-resources)
 
 ## Project Overview
 
@@ -28,23 +27,9 @@ Data engineering projects extend beyond writing SQL scripts. Key decisions made 
 
 ## Data Flow
 
-The video tutorial accompanying this project guides you through:
-
 1. **Data Loading**: Loading data from a local machine to Snowflake stage locations, handling both small JSON files and multiple files simultaneously.
 2. **Data Transformation**: Using Snowflake's features to transform raw data into meaningful insights.
 3. **Data Quality**: Ensuring data quality and integrity throughout the process.
 4. **Data Enhancement**: Utilizing Snowflake to enhance data processing efficiency.
 
-## Getting Started
 
-To get started with this project, you will need:
-
-- A Snowflake account.
-- Basic knowledge of SQL and data engineering principles.
-- The sample JSON data file and SQL scripts provided in this repository.
-
-### Steps:
-
-1. Clone this repository to your local machine.
-   ```bash
-   git clone https://github.com/your-repository/odi-cricket-snowflake.git
