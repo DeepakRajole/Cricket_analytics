@@ -1,6 +1,6 @@
 # ODI Cricket Data Engineering Project Using Snowflake
 
-Welcome to the comprehensive end-to-end data engineering solution for One Day International (ODI) cricket data using Snowflake. This project covers everything from initial design considerations to the intricacies of data flow, database layer architecture, and more.
+This project provides a comprehensive end-to-end data engineering solution for One Day International (ODI) cricket data using Snowflake. It covers initial design considerations, data flow, database layer architecture, and more.
 
 ## Table of Contents
 
@@ -8,11 +8,10 @@ Welcome to the comprehensive end-to-end data engineering solution for One Day In
 - [Design Considerations](#design-considerations)
 - [Data Flow](#data-flow)
 - [File and Script Descriptions](#file-and-script-descriptions)
-- [Getting Started](#getting-started)
 - [Sample Data and SQL Scripts](#sample-data-and-sql-scripts)
 - [Database Architecture](#database-architecture)
 - [Automation and Dashboard](#automation-and-dashboard)
-- [Additional Resources](#additional-resources)
+
 
 ## Project Overview
 
@@ -37,10 +36,6 @@ Key decisions made during this project include:
 ## File and Script Descriptions
 
 This section provides an overview of the files and scripts included in this repository, explaining their purpose within the project.
-
-### Latest Commit
-
-- **README.md**: The latest update to the project's documentation.
 
 ### Schema and Table Scripts
 
@@ -78,16 +73,5 @@ This section provides an overview of the files and scripts included in this repo
 
 - **ODI.json**: Sample JSON data file containing ODI cricket data.
 
-## Getting Started
 
-To get started with this project, you will need:
 
-- A Snowflake account.
-- Basic knowledge of SQL and data engineering principles.
-- The sample JSON data file and SQL scripts provided in this repository.
-
-### Steps:
-
-1. Clone this repository to your local machine.
-   ```bash
-   git clone https://github.com/your-repository/odi-cricket-snowflake.git
