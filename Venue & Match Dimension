@@ -16,3 +16,10 @@ create or replace table venue_dim (
     lattitude number(10,6),
     longitude number(10,6)
 );
+
+--Match Dimension
+
+create or replace table match_type_dim (
+    match_type_id int primary key autoincrement,
+    match_type text not null
+);
