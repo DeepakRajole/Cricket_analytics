@@ -7,10 +7,7 @@ Welcome to the comprehensive end-to-end data engineering solution for One Day In
 - [Project Overview](#project-overview)
 - [Design Considerations](#design-considerations)
 - [Data Flow](#data-flow)
-- [Getting Started](#getting-started)
-- [Sample Data and SQL Scripts](#sample-data-and-sql-scripts)
-- [Database Architecture](#database-architecture)
-- [Automation and Dashboard](#automation-and-dashboard)
+
 
 ## Project Overview
 
@@ -18,7 +15,7 @@ This project demonstrates a complete end-to-end data engineering pipeline using 
 
 ## Design Considerations
 
-Data engineering projects extend beyond writing SQL scripts. Key decisions made during this project include:
+Key decisions made during this project include:
 
 - **Data Modeling**: Designing efficient and scalable data models.
 - **Project Architecture**: Ensuring a robust and maintainable architecture.
