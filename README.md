@@ -8,9 +8,8 @@ This project provides a comprehensive end-to-end data engineering solution for O
 - [Design Considerations](#design-considerations)
 - [Data Flow](#data-flow)
 - [File and Script Descriptions](#file-and-script-descriptions)
-- [Sample Data and SQL Scripts](#sample-data-and-sql-scripts)
-- [Database Architecture](#database-architecture)
-- [Automation and Dashboard](#automation-and-dashboard)
+- [Learning Outcomes](#Learning-Outcomes)
+
 
 
 ## Project Overview
@@ -72,6 +71,29 @@ This section provides an overview of the files and scripts included in this repo
 ### Data File
 
 - **ODI.json**: Sample JSON data file containing ODI cricket data.
+
+## Learning Outcomes
+
+Upon completing this end-to-end real-time Snowflake-based data engineering project (ETL/ELT), you will gain proficiency in the following areas:
+
+- **Data Loading**: 
+  - Loading data from a local machine to Snowflake stage locations, handling both small JSON files and multiple files simultaneously.
+  - Loading delta data sets from a local machine to internal stages.
+
+- **Querying Stage Files**: 
+  - Utilizing the `$ notation` to query stage files.
+
+- **Data Transformation**: 
+  - Executing the `COPY` command to load JSON files into tables.
+
+- **Database Design**: 
+  - Designing different layers and fact/dimension tables to support robust data models.
+
+- **Automation**: 
+  - Automating data flow using Snowflake's `TASK` and `TASK TREE` features.
+
+- **Dashboard Creation**: 
+  - Building quick and insightful dashboards using Snowsight.
 
 
 
